@@ -24,68 +24,78 @@
 
 body {
   font-family: sans-serif;
+  font-weight: 300;
+}
+
+/* Header  */
+
+header {
+  height: 700px;
+  color: white;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
 /* Navigation bar  */
-/* 
-.navbar {
-  height: 80px;
-  flex-basis: 100%;
-  align-items: center;
-}
-
-.navitems {
-  height: 50px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-  flex-basis: 60%;
-  align-items: center;
-  height: 100%;
-}
-.nav-side {
-  flex-basis: 20%;
-  align-items: center;
-  height: 100%;
-  padding: 0px 10px;
-}
-
-.nav-side.right {
-  justify-content: end;
-} */
-
-/* Header  */
-/* 
-.spotlight {
-  background-color: var(--hard-pink);
-  flex-basis: 80%;
-  height: 80%;
-  align-self: center;
-} */
-
-/* # Header  */
-
-header {
-  height: 600px;
-}
 
 .nav-container {
   height: 80px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-container > .nav-menu {
-  flex-basis: 60%;
+  flex-basis: 70%;
+}
+
+.nav-links {
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px 20px;
+}
+
+/* Spotlight  */
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 50px 0px;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 30px;
+  text-align: center;
+}
+
+.spotlight {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0px;
 }
 
 /* Main  */
 
-div > .bgc-green {
+section {
+  height: 700px;
+}
+
+section > div {
+  padding: 100px 0px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+/* div > .bgc-green {
   height: 800px;
   width: 100%;
-}
+} */
 
 section {
   padding-top: 10px;
@@ -103,10 +113,6 @@ hr {
   align-items: center;
 }
 
-.buttons {
-  background-color: lightgrey;
-  padding: 5px 10px;
-}
 /* Utilities  */
 
 .d-flex {
@@ -114,8 +120,12 @@ hr {
 }
 
 .container {
-  width: 1080px;
+  width: 1200px;
   margin: 0 auto;
+}
+
+.align-c {
+  align-items: center;
 }
 
 .jc-center {
@@ -150,6 +160,36 @@ hr {
 }
 .border-dw-3px {
   border: 3px dashed rgb(255, 255, 255);
+}
+
+/* Buttons  */
+
+.button-sm {
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.button-lg {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.button-lg > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 20px 35px;
+  border-radius: 30px;
+  margin: 0px 20px;
+}
+
+.white-button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.black-button {
+  background-color: black;
+  color: white;
 }
 
 /* Column sizes */
