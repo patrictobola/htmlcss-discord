@@ -27,7 +27,7 @@ body {
 }
 
 /* Navigation bar  */
-
+/* 
 .navbar {
   height: 80px;
   flex-basis: 100%;
@@ -38,7 +38,6 @@ body {
   height: 50px;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 10px; */
 }
 
 .nav-links {
@@ -55,15 +54,30 @@ body {
 
 .nav-side.right {
   justify-content: end;
-}
+} */
 
 /* Header  */
-
+/* 
 .spotlight {
   background-color: var(--hard-pink);
   flex-basis: 80%;
   height: 80%;
   align-self: center;
+} */
+
+/* # Header  */
+
+header {
+  height: 600px;
+}
+
+.nav-container {
+  height: 80px;
+  justify-content: space-between;
+}
+
+.nav-container > .nav-menu {
+  flex-basis: 60%;
 }
 
 /* Main  */
