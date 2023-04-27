@@ -1,17 +1,6 @@
 /* Custom Properties */
 :root {
-  --sky-blue: #add8e6;
   --blue: #8ea1e1;
-  --light-blue: #1e90ff;
-  --orange: #daa520;
-  --hard-pink: #ee82ee;
-  --pink: #ffc0cb;
-  --smerald: #20b2aa;
-  --water-green: #7fffd4;
-  --green: #228b22;
-  --pink: #ffc0cb;
-  --salmon: #f08080;
-  --pink: #ffc0cb;
   --gray: #f6f6f6;
   --dark-gray: #23272a;
 }
@@ -38,6 +27,7 @@ a {
 li {
   list-style-type: none;
   padding: 0px 20px;
+  font-weight: 700;
 }
 
 h1 {
@@ -57,8 +47,6 @@ h2 {
   padding: 30px 0px;
 }
 
-/* Header  */
-
 header {
   height: 700px;
   color: white;
@@ -66,6 +54,19 @@ header {
   background-size: cover;
 }
 
+h3 {
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 50px 0px 50px;
+  font-size: 1.8rem;
+}
+
+footer {
+  height: 800px;
+  color: white;
+}
 /* Navigation bar  */
 
 .nav-container {
@@ -112,21 +113,48 @@ section > div {
   background-size: cover;
 }
 
-h3 {
-  background-image: url(../img/stars.svg);
-  background-size: contain;
-  width: 600px;
-  margin: 0 auto;
-  padding: 30px 50px 0px 50px;
-  font-size: 1.8rem;
-}
-
 /* Footer  */
 
-#links {
-  height: 80px;
-  align-self: flex-end;
-  align-items: center;
+.footer-top {
+  padding-top: 80px;
+  height: 500px;
+  border-bottom: 1px solid var(--blue);
+}
+.column-sm > h4 {
+  color: var(--blue);
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.column-sm > img {
+  width: 30px;
+  padding: 0px 5px 0px 0px;
+}
+
+.footer-icons {
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.footer-links {
+  flex-basis: 100%;
+}
+
+.column-xs > ul > li {
+  padding: 0px 0px 15px 0px;
+}
+.column-xs > ul > li:first-child {
+  color: var(--blue);
+}
+
+.footer-bottom {
+  padding-top: 30px;
+}
+
+.footer-bottom > .container {
+  justify-content: space-between;
 }
 
 /* Utilities  */
@@ -192,36 +220,9 @@ h3 {
 .bgc-blue {
   background-color: var(--blue);
 }
-.bgc-sky-blue {
-  background-color: var(--sky-blue);
-}
-
-.bgc-light-blue {
-  background-color: var(--light-blue);
-}
-
-.bgc-pink {
-  background-color: var(--pink);
-}
-
-.bgc-green {
-  background-color: var(--green);
-}
 .bgc-gray {
   background-color: var(--gray);
 }
 .bgc-dark-gray {
   background-color: var(--dark-gray);
-}
-.bgc-smerald {
-  background-color: var(--smerald);
-}
-.bgc-water-green {
-  background-color: var(--water-green);
-}
-.bgc-salmon {
-  background-color: var(--salmon);
-}
-.bgc-orange {
-  background-color: var(--orange);
 }
