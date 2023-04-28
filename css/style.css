@@ -89,9 +89,12 @@ footer {
 
 /* Spotlight  */
 
+.jumbotron {
+  justify-content: center;
+}
+
 .spotlight {
-  width: 60%;
-  margin: 0 auto;
+  flex-basis: 70%;
   padding: 50px 0px;
   text-align: center;
 }
